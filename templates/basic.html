@@ -26,8 +26,8 @@
     </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
-    
-  <a class=" btn navbar-brand btn  btn-outline-danger ml-2" style=" font-family: cursive; color: yellow;" href="/"><b>WE-DO-CLEVER</b></a>
+    <img class="rounded-circle" src="{% static 'images/logo1.png' %}" alt="Logo" style="width:60px;">
+  <a class=" btn navbar-brand btn  btn-outline-danger ml-2" style="  color: yellow; padding: 12px 24px;border-radius: 20px;opacity: 12;" href="/"><b>WE-DO-CLEVER</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -36,16 +36,16 @@
     <ul class="navbar-nav mr-auto">
       
       <li class="nav-item ">
-        <a  class="nav-link btn  btn-outline-warning ml-1 " style=" font-family: cursive; color: blue;" href="/"><b>HOME</b></a>
+        <a  class="nav-link    ml-1 " style=" color: aqua; text-decoration: none;" href="/"><b>HOME</b></a>
       </li>
       <li class="nav-item">
-        <a  class="nav-link btn btn-outline-warning  ml-1" style=" font-family: cursive; color: blue;" href="/notes"><b>NOTES</b></a>
+        <a  class="nav-link   ml-1" style=" color: aqua; text-decoration: none;" href="/notes"><b>NOTES</b></a>
       </li>
       <li class="nav-item">
-        <a class=" nav-link btn  btn-outline-warning ml-1" style=" font-family: cursive; color: blue;" href="/assignments"><b>ASSIGNMENTS</b></a>
+        <a class=" nav-link  ml-1" style=" color: aqua; text-decoration: none;" href="/assignments"><b>ASSIGNMENTS</b></a>
       </li>
       <li class="nav-item">
-        <a  class="nav-link btn  btn-outline-warning ml-1" style=" font-family: cursive; color: blue;"  href="/questions"><b>QUESTON-PAPERS</b></a>
+        <a  class="nav-link  ml-1" style=" color: aqua; text-decoration: none;"  href="/questions"><b>QUESTON-PAPERS</b></a>
       </li>
       
       
@@ -58,10 +58,10 @@
     <ul class="navbar-nav ml-2">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle btn-outline-warning   mr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           <b style=" font-family: cursive; color: red;"> WELCOME <b style=" font-family: cursive; color: yellow;" >{{request.user}}</b></b> 
+           <b style="  color: red;"> WELCOME <b style="  color: yellow;" >{{request.user}}</b></b> 
           </a>
         <div class="dropdown-menu btn-outline-danger" aria-labelledby="navbarDropdown">
-          <a class=" dropdown-item btn-outline-danger" style=" font-family: cursive; color: red;"    href="/logout"><b>LOGOUT</b></a>
+          <a class=" dropdown-item btn-outline-danger" style="  color: red;"    href="/logout"><b>LOGOUT</b></a>
 
          
 
@@ -69,9 +69,9 @@
           {% else %}
 
 
-          <button type="button" class="btn btn-outline-danger mx-2" style=" font-family: cursive;" data-target="#loginModel" data-toggle="modal"> <b>LOGIN</b></button>
+          <button type="button" class="btn btn-outline-danger mx-2"  data-target="#loginModel" data-toggle="modal"> <b>LOGIN</b></button>
      
-         <button type="button" class="btn btn-outline-success my-2 my-sm-0"  style=" font-family: cursive;" data-target="#signupModel" data-toggle="modal"> <b>SIGN-UP</b> </button>
+         <button type="button" class="btn btn-outline-success my-2 my-sm-0"   data-target="#signupModel" data-toggle="modal"> <b>SIGN-UP</b> </button>
            
           
         
@@ -261,14 +261,14 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus , inpu
 }
 
 /* Set a style for the submit button */
-.btn {
+/* .btn {
   
   padding: 12px 24px;
  
   border-radius: 20px;
 
   opacity: 12;
-}
+} */
 
 #preloader{
   background: url(" /static/images/h1.gif ") no-repeat  center, linear-gradient(deeppink,#009688)    ;
