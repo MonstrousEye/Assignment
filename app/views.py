@@ -38,7 +38,7 @@ def handleSignup(request):
         
 
         if User.objects.filter(username=username).exists():
-            messages.error(request,"USN already taken,Please try with Other USN")
+            messages.error(request,"USN already taken,Please try to Login...")
             return redirect('/')
 
 
