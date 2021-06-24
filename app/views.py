@@ -118,3 +118,7 @@ def questions(request):
         else:
 
             return render(request,'questions.html')
+
+def about(request):
+            return render(request,'about.html')
+

@@ -11,6 +11,7 @@ urlpatterns = [
     path('notes',views.notes, name="notes"),
     path('assignments',views.assignments, name="assignments"),
     path('questions',views.questions, name="questions"),
+    path('about',views.about,name="about"),
     
     
 ]
