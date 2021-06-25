@@ -6,17 +6,10 @@ HOME
 
 {% load static %}
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-}
+
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  
   background-color: #34495e;
 }
 
@@ -33,6 +26,7 @@ body {
   max-width: 250px;
   max-height: 350px;
   box-shadow: 0 40px 60px -6px black;
+  border: 2px solid white;
 }
 
 .card-title {
@@ -101,7 +95,7 @@ h1 {
   color: white;
 }
 .fa-instagram {
-  background: #125688;
+  background:linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
   color: white;
 }
 
@@ -112,45 +106,48 @@ h1 {
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <h1>Designed and Devoloped by</h1>
-<div class="cards">
-  <div class="card">
-    <h2 class="card-title">ROHITH S</h2>
-    <img src="/static/images/5.jpg" alt="">
-    <p class="card-desc"><b>Rohith S</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
-        <a href="https://www.facebook.com/rohith.gowda.717/" class="fa fa-facebook"></a>
-        <a href="https://www.linkedin.com/in/rohith-s-666555r7/" class="fa fa-linkedin"></a>
-        <a href="https://www.instagram.com/_rohit_gowda/" class="fa fa-instagram"></a>
+<div class="cards" >
+  <div class="card" style="box-shadow: 5px -5px 8px aqua;">
+    <h3 class="card-title">MANJUNATH RS</h3>
+    <img src="/static/images/SAVE_20201226_081925.jpg" alt="">
+    <p class="card-desc"><b>Manjunath RS</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
+        <a href="https://www.facebook.com/manja.gowda.526/" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/manjunath-r-s-2a0881206/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/manjunath_gowda7/" class="fa fa-instagram"></a>
 
     </p>
    
 
   </div>
-  <div class="card">
+  <div class="card" style="box-shadow: 5px -5px 8px aqua;">
     <h2 class="card-title">MANISH N</h2>
-    <img src="/static/images/15.JPG" alt="">
+    <img src="/static/images/15.png" alt="">
     <p class="card-desc"><b>Manish N</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-instagram"></a></p>
   </div>
-  <div class="card">
+  <div class="card" style="box-shadow: 5px -5px 8px aqua;">
     <h2 class="card-title">NITHESH B</h2>
-    <img src="/static/images/10.jpeg" alt="">
+    <img src="/static/images/10.jpg" alt="">
     <p class="card-desc"><b>Nithesh B</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
         <a href="https://www.facebook.com/nitesh.jackie/" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="https://www.instagram.com/nithesh_0228_/" class="fa fa-instagram"></a></p>
   </div>
-  <div class="card">
-    <h2 class="card-title">MANJUNATH RS</h2>
-    <img src="/static/images/20.jpeg" alt="">
-    <p class="card-desc"><b>Manjunath RS</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
+  <div class="card"style="box-shadow: 5px -5px 8px aqua;">
+    <h2 class="card-title">ROHITH S</h2>
+    <img src="/static/images/7.jpg" alt="">
+    <p class="card-desc"><b>Rohith S</b><br>Don Bosco Institute of Technology<br> <small><b>Dept. of CSE.</b></small><br><br>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-instagram"></a></p>
   </div>
  
 </div>
+<br>
 
+<br>
+<br>
 
 {% endblock body %}
